@@ -1,5 +1,4 @@
 ## QUESTION 1
-require 'pry'
 pokemon = [
   {
     "id": 1,

@@ -1,7 +1,4 @@
 # Finish the implementation of the Car class so it has the functionality described below
-
-require 'pry'
-
 class Car
 
     attr_reader :make, :model
@@ -23,8 +20,6 @@ class Car
     end
 
 end
-
-binding.pry
 
 volvo_lightning = Car.new("Volvo", "Lightning")
 yugo = Car.new("Zastava", "Yugo")
